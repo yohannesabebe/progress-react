@@ -1,0 +1,46 @@
+*{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(43, 42, 51);
+}
+.navi{
+    background-color:rgb(35, 35, 44);
+    display: flex;
+    padding:13px
+   
+}
+.logo{
+    background-color:rgb(35, 35, 44);
+    width: auto;
+    width: 28.93px;
+    height: 28.93px;
+    left: 26px;
+    top: 31px;
+}
+.navi .txt1{
+    background-color:rgb(35, 35, 44);
+    color:rgb(32, 231, 231)
+}
+.navi .txt2{
+    background-color:rgb(35, 35, 44);
+    color: white;
+    margin-left: 210px;
+}
+.ul {
+    list-style: none;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+  
+  li::before {
+    content: "• ";
+    color: lightseagreen;
+    
+  }
+  .divi{
+    color: blue;
+    
+  }
+  .divi .title{
+    margin-left: 20px;
+  }
